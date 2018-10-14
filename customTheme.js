@@ -3,7 +3,7 @@ import theme from 'mdx-deck/themes';
 export default {
   ...theme,
   colors: {
-    background: '#00B178',
+    background: '#FBFBFB',
     text: '#2D3846',
   },
   // ul: {
