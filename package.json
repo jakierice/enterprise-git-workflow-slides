@@ -4,8 +4,8 @@
   "description": "MDX slide deck for Lambda school brownbag presentation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
   },
   "author": "Jakie W. Rice",
   "license": "MIT",
