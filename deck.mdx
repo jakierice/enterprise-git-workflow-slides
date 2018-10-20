@@ -43,7 +43,9 @@ import { HugeText, UnorderedList, JakieTermsTitle, SlideTitle } from './componen
 I request that you pull these changes into your main code base.
 
 <Notes>
+
   Definition from [OSS Watch](http://oss-watch.ac.uk/resources/pullrequest) - A pull request occurs when a developer asks for changes committed to an external repository to be considered for inclusion in a project’s main repository.
+
 </Notes>
 
 ---
@@ -52,13 +54,23 @@ I request that you pull these changes into your main code base.
 Slide my changes back into the code base's commit history where I started making them.
 
 <Notes>
+
   From [Git](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) site - It works by going to the common ancestor of the two branches (the one you’re on and the one you’re rebasing onto), getting the diff introduced by each commit of the branch you’re on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.
+
 </Notes>
 
 ---
 ### Merge conflict
 
+Me and someone else made changes in the same place and confused the computer.
 
+<Notes>
+
+  Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.
+
+  Sometimes there are competing changes that Git can't resolve without your help. Often, merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
+
+</Notes>
 
 ---
 ### Code review
