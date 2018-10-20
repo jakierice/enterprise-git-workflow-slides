@@ -6,13 +6,20 @@ export default {
     background: '#FBFBFB',
     text: '#2D3846',
   },
-  // ul: {
-  //   textAlign: 'left',
-  //   listStyle: 'none',
-  // },
-  // li: {
-  //   textAlign: 'left',
-  //   fontSize: '30px',
-  //   fontStyle: 'italic',
-  // },
+  p: {
+    textAlign: 'left',
+    fontSize: '1.4rem',
+  },
+  h3: {
+    fontSize: '3rem',
+    borderBottom: '3px solid #00B178',
+    textAlign: 'left',
+    width: '100%',
+  },
+  h4: {
+    borderBottom: '3px solid #F64148',
+    fontSize: '2rem',
+    textAlign: 'right',
+    width: '100%',
+  },
 };

@@ -6,7 +6,6 @@ const UnorderedList = styled.ul`
   padding: 0;
 
   li {
-    /* border-left: 2px solid #F2C94C; */
     padding: 0.4rem;
   }
 `;
