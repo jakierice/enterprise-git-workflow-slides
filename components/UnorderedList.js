@@ -6,6 +6,7 @@ const UnorderedList = styled.ul`
   padding: 0;
 
   li {
+    text-align: ${({ textAlign }) => textAlign || 'center'};
     padding: 0.4rem;
   }
 `;

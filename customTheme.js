@@ -9,6 +9,7 @@ export default {
   p: {
     textAlign: 'left',
     fontSize: '1.4rem',
+    maxWidth: '70rem',
   },
   h3: {
     fontSize: '3rem',
