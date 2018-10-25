@@ -8,6 +8,8 @@ const UnorderedList = styled.ul`
   li {
     text-align: ${({ textAlign }) => textAlign || 'center'};
     padding: 0.4rem;
+    border-left: 3px solid #2D3846;
+    margin-bottom: 1.4rem;
   }
 `;
 
